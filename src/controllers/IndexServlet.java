@@ -31,6 +31,8 @@ public class IndexServlet extends HttpServlet {
         /**
          * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
          */
+
+    // 一覧表示する
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         EntityManager em = DBUtil.createEntityManager();
 
